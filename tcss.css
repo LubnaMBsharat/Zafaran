@@ -1,0 +1,72 @@
+.table_responsive{
+    margin-top:20px;
+}
+.table {
+    position: relative;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    left: 12%;
+    width: 75%;
+}
+.table thead tr {
+    background-color: #cbbfb4;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+    font-size: 20px;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.table tbody tr:last-of-type {
+    border-bottom: 2px solid #a6937e;
+}
+
+.table tbody tr.active-row {
+    font-weight: bold;
+    color: #a6937e;
+}
+
+
+.table_responsive .text{
+
+    font-family: "Great Vibes";
+    font-size: 40px;
+    color: #a6937e;
+
+
+}
+
+.btnn{
+
+    text-decoration: none;
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    position: relative;
+    left: 75%;
+    color: #a6937e;
+    border-radius: 30px;
+    box-shadow: 0 0 0 0 rgba(169,125,41,0.5),0 0 0 0 rgba(70,47,11,0.8) ;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.btnn:hover{
+    transform: translate(0,-6px);
+    box-shadow: 10px -10px 25px 0 rgba(169,125,41,0.5) ,-10px 10px 25px 0 rgba(70,47,11,0.8);
+}
